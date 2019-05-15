@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    border: 1px outset whitesmoke;
+    border-radius: 5px;
+    height: 60px;
+    color: white;
+    padding: 5px 5px 0px 20px;
+}
+.responsive { 
+    width: 50%;
+    height: auto;
+}
+.introduction {
+    font-family: 'Quicksand';
+    text-align: center;
+    margin: 0 0 50px 0;
+    border: 1px outset whitesmoke;
+    border-radius: 5px;
+    background: #73C8A9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h2 { color: white; }
+a { color: black;}
